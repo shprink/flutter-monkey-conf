@@ -14,7 +14,9 @@ class MonkeyConf extends StatefulWidget {
 class _MonkeyConfState extends State<MonkeyConf> {
   @override
   Widget build(BuildContext context) {
-    // TODO completer l'application
+    //  TODO: recuperer les talks
+    //  l'url est la suivant https://monkeyconf.herokuapp.com/
+    //
     return MaterialApp(
       home: ConferencesView(),
       routes: _generateRoute(),
