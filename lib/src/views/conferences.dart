@@ -19,6 +19,7 @@ class _ConferencesViewState extends State<ConferencesView> {
       appBar: CustomAppBar(
         title: widget.title,
       ),
+      //  TODO: lister les conferences
       body: Center(
         child: Text('Conferences list'),
       ),

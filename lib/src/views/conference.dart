@@ -14,6 +14,7 @@ class ConferenceView extends StatefulWidget {
 class _ConferenceViewState extends State<ConferenceView> {
   @override
   Widget build(BuildContext context) {
+    //  TODO: afficher les details de la conference
     return Scaffold(
       appBar: CustomAppBar(
         title: 'Conference title',
